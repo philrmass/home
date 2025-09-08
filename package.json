@@ -1,0 +1,27 @@
+{
+  "name": "home",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "ci": "yarn install --frozen-lockfile",
+    "dev": "vite",
+    "build": "vite build",
+    "preci": "rm -rf node_modules",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "preact": "^10.21.0"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.9.4",
+    "@vite-pwa/assets-generator": "^0.2.6",
+    "vite": "^6.0.11",
+    "vite-plugin-pwa": "^1.0.3",
+    "workbox-window": "^7.3.0"
+  },
+  "resolutions": {
+    "sharp": "0.32.6",
+    "sharp-ico": "0.1.5"
+  }
+}
